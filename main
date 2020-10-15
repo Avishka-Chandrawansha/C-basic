@@ -1,6 +1,12 @@
 #include <stdio.h>
 int main() {
    // printf() displays the string inside quotation
-   printf("Hello, World!'),
+   printf("Hello, World!");
+   
+   int ID_Num;
+   printf("\nWhat's your ID number?");
+   scanf("%d",&ID_Num);
+   
+   printf("Your ID Number is %d",&ID_Num);
    return 0;
 }
